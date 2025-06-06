@@ -27,3 +27,31 @@
     color: var(--white);
     transition: all 0.3s;
 }
+.mobile-drawer{
+    display: none;
+}
+@media only screen and (max-width:800px){
+    .logo{
+        font-size: 1rem;
+
+    }
+    .navbar{
+        padding: 1.5rem 3rem;
+    }
+    .link{
+        font-size: 0.8rem;
+    }
+    .links{
+
+        display: none;
+    }
+    .mobile-drawer{
+        display: block;
+    }
+}
+.drawer-div{
+    width: 40vw;
+    background-color: var(--black);
+    height: 100vh;
+    padding: 1.5rem;
+}
