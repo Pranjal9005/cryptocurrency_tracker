@@ -1,16 +1,14 @@
-import React from "react";
+import React from 'react';
 import Header from "../components/Common/Header";
 import MainComponent from "../components/landingPage/Main";
-
-
-function HomePage() {
-  return (
-    <div>
-        {" "}
+function HomePage (){
+	return (
+	  <div>
         <Header/>
-        <MainComponent/>
-    </div>
-  );
-}
-
+       <MainComponent/>
+	  </div>
+	);
+  }
+  
 export default HomePage;
+  

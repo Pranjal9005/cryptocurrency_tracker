@@ -16,6 +16,7 @@
 }
 .logo{
     font-size: 1.2rem;
+    cursor: pointer;
 }
 .link{
     color: var(--grey);
@@ -54,4 +55,19 @@
     background-color: var(--black);
     height: 100vh;
     padding: 1.5rem;
+}
+.logout-btn {
+  margin-left: 1rem;
+  padding: 0.5rem 1.1rem;
+  background: #e53e3e;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.logout-btn:hover {
+  background: #b91c1c;
 }
