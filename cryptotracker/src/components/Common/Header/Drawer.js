@@ -23,6 +23,9 @@ export default function TemporaryDrawer() {
             <Link to="/compare">
             <p className='link'>Compare</p>
             </Link>
+            <Link to="/dashboard">
+            <p className='link'>Dashboard</p>
+            </Link>
         </div>
           </Drawer>
         
