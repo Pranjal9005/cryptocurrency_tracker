@@ -1,6 +1,7 @@
 {
   "name": "cryptotracker",
   "version": "0.1.0",
+  "homepage": "https://pranjal9005.github.io/cryptotracker",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.14.0",
