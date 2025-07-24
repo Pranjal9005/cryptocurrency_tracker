@@ -8,7 +8,6 @@ export default function TemporaryDrawer() {
   const [open, setOpen] = useState(false);
   return (
     <div>
-      
           <Button onClick={()=>setOpen(true)}><DragHandleRoundedIcon className="link"/></Button>
           <Drawer
             anchor={"right"}
@@ -28,8 +27,6 @@ export default function TemporaryDrawer() {
             </Link>
         </div>
           </Drawer>
-        
-      
     </div>
   );
 }
